@@ -54,3 +54,5 @@ Happy sentiment analysis!
 
 
 ### I included a demo that allows the user to input a sentence to predict if the review is positive or negative, currently tested at a 96% accuracy.
+
+![](image.png)
