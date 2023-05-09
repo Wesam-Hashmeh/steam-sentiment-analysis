@@ -28,9 +28,6 @@ dfTest =  df[5120000:6400000].copy()
 
 
 # Pre Processessing
-#used the following resources : https://www.kaggle.com/code/sudalairajkumar/getting-started-with-text-preprocessing
-#                               https://www.kaggle.com/code/danielbeltsazar/steam-games-reviews-analysis-sentiment-analysis
-#Used it mainly from this source ^ 
 
 def clean(raw):
     result = re.sub("<[a][^>]*>(.+?)</[a]>", 'Link.', str(raw))
@@ -97,11 +94,6 @@ def preproc(df,review):
     df[review] = df[review].apply(Stemming)
     return df
 
-
-# In[4]:
-
-
-dfTrain = preproc(dfTrain,'review_text')
 
 
 # In[5]:
