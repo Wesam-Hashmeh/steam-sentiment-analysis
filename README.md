@@ -1,6 +1,6 @@
 # Steam Game Sentiment Analysis using Naive Bayes Classifier
 
-This repository contains a Python implementation of sentiment analysis using a Naive Bayes classifier. The classifier is trained on reviews of Steam games to predict whether a review is positive or negative.
+This repository contains a Python implementation of sentiment analysis using a Naive Bayes classifier. The classifier is trained on reviews of Steam games to predict whether a review is positive or negative. This project includes a demo such that the user can input a sentence to predict if the review is positive or negative, currently tested at a 96% accuracy.
 
 ## Dataset
 
